@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-:root { --ink:#0b1320; --ink-2:#182235; --lime:#c8f36c; --lime-2:#e4ffad; --paper:#f7f8f3; --card:#ffffff; --muted:#718093; --line:#e5e9e2; --blue:#6570ff; --coral:#ef866f; --yellow:#f6d777; --mint:#b9efd7; --lilac:#d8d4ff; --peach:#ffd6c2; --radius:24px; }
+:root { --ink:#073b3a; --ink-2:#0d5b56; --lime:#70e2c4; --lime-2:#d8fff3; --paper:#f6fffd; --card:#ffffff; --muted:#6d8784; --line:#d9eee9; --blue:#5ca8c2; --coral:#e78774; --yellow:#f4d786; --mint:#b9f1df; --lilac:#d3f3ef; --peach:#ffe0d4; --radius:24px; }
 * { box-sizing:border-box; }
 html { background:var(--ink); }
 body { margin:0; min-width:320px; background:var(--ink); color:var(--ink); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; -webkit-font-smoothing:antialiased; }
@@ -24,7 +24,7 @@ button:focus-visible,input:focus-visible { outline:3px solid rgba(101,112,255,.3
 .icon-btn { position:relative; display:grid; place-items:center; width:40px; height:40px; color:var(--ink); background:#fff; border:1px solid var(--line); border-radius:13px; }
 .notification-dot { position:absolute; top:8px; right:8px; width:6px; height:6px; background:var(--coral); border:1px solid #fff; border-radius:50%; }
 .eyebrow { display:block; color:var(--muted); font-size:10px; font-weight:850; letter-spacing:.12em; }
-.lime-text { color:#839d38; }
+.lime-text { color:#2b9380; }
 .coral-text { color:#cf6855; }
 h1,h2,h3,p { margin:0; }
 h1 { font-size:30px; line-height:1.03; letter-spacing:-.055em; }
@@ -152,7 +152,7 @@ p { color:var(--muted); font-size:13px; line-height:1.5; }
 .map-sheet-stats { display:flex; align-items:center; gap:10px; padding:13px 0; margin:12px 0; border-top:1px solid var(--line); border-bottom:1px solid var(--line); } .map-sheet-stats span:first-child { display:flex; align-items:center; gap:4px; color:var(--muted); font-size:10px; } .map-sheet-stats strong { margin-left:auto; font-size:16px; }
 .map-sheet-actions { display:grid; grid-template-columns:1fr 1fr; gap:7px; } .map-sheet-actions .primary-btn,.map-sheet-actions .secondary-btn { min-height:42px; }
 .map-store-tabs { display:flex; gap:5px; overflow:auto; margin-top:13px; scrollbar-width:none; } .map-store-tabs button { padding:7px 9px; color:#86918c; background:#f0f4ef; border-radius:10px; font-size:9px; font-weight:800; white-space:nowrap; } .map-store-tabs button.active { color:var(--ink); background:var(--lime); }
-.store-hero { padding:25px 20px; margin:-20px -20px 18px; color:#fff; } .store-hero.lime { background:#83a23c; } .store-hero.blue { background:#6670dc; } .store-hero.coral { background:#c97563; } .store-hero-icon { display:grid; place-items:center; width:59px; height:59px; margin-bottom:19px; color:var(--ink); background:#ffffff55; border-radius:18px; } .store-hero h1 { margin:8px 0; } .store-hero p { color:#f0f4ed; } .store-hero .eyebrow { color:#e5f4bd; }
+.store-hero { padding:25px 20px; margin:-20px -20px 18px; color:#fff; } .store-hero.lime { background:#278f7a; } .store-hero.blue { background:#398ca7; } .store-hero.coral { background:#c96f62; } .store-hero-icon { display:grid; place-items:center; width:59px; height:59px; margin-bottom:19px; color:var(--ink); background:#ffffff55; border-radius:18px; } .store-hero h1 { margin:8px 0; } .store-hero p { color:#f0f4ed; } .store-hero .eyebrow { color:#e5f4bd; }
 .info-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:17px; } .info-grid > div { display:grid; gap:6px; padding:12px 10px; background:#fff; border:1px solid var(--line); border-radius:15px; } .info-grid svg { color:#819d3b; } .info-grid span { color:var(--muted); font-size:9px; } .info-grid strong { font-size:10px; }
 .store-product-card { display:flex; align-items:center; gap:12px; padding:12px; margin-bottom:12px; background:#fff; border:1px solid var(--line); border-radius:18px; } .store-product-art .product-art { width:75px; height:75px; } .store-product-card h2 { margin:4px 0 8px; font-size:14px; } .store-product-price { display:flex; align-items:center; gap:10px; } .store-product-price strong { font-size:16px; }
 .amenities { display:flex; flex-wrap:wrap; gap:7px; } .amenities span { display:inline-flex; align-items:center; gap:5px; padding:9px 10px; color:#65717c; background:#fff; border:1px solid var(--line); border-radius:12px; font-size:10px; font-weight:750; }
