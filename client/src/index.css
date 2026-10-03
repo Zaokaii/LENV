@@ -294,3 +294,20 @@ p { color:var(--muted); font-size:13px; line-height:1.5; }
 .timeline-step strong { font-size:12px; }
 .timeline-step small { margin-top:4px; color:var(--muted); font-size:10px; }
 .order-receipt { display:flex; align-items:center; gap:7px; padding:13px; margin:2px 0 14px; color:#6d8435; background:#eaf4d0; border-color:#dbeab7; font-size:10px; }
+.payment-methods { display:grid; gap:8px; margin:10px 0; }
+.payment-choice { display:flex; align-items:center; gap:10px; width:100%; padding:12px; color:var(--ink); background:#fff; border:1px solid var(--line); border-radius:15px; text-align:left; }
+.payment-choice.active { border-color:#bfd972; box-shadow:0 0 0 3px #e5f1c5; }
+.payment-choice > span:nth-child(2) { flex:1; }
+.payment-choice strong,.payment-choice small { display:block; }
+.payment-choice strong { font-size:12px; }
+.payment-choice small { margin-top:3px; color:var(--muted); font-size:9px; }
+.payment-choice > svg { color:#b7c0c0; }
+.payment-choice.active > svg { color:#7e9b36; }
+.choice-icon { display:grid; place-items:center; flex:0 0 34px; width:34px; height:34px; border-radius:10px; }
+.choice-icon.pix { color:#67852e; background:var(--lime-2); }
+.choice-icon.card { color:#606acc; background:#e0e3ff; }
+.method-panel { display:flex; align-items:center; gap:9px; padding:11px 12px; margin:8px 0 13px; color:#6e8438; background:#eef7d9; border:1px solid #dbeab7; border-radius:13px; }
+.method-panel > svg { flex:0 0 auto; }
+.method-panel strong { display:block; color:var(--ink); font-size:11px; }
+.method-panel p { margin-top:3px; font-size:9px; }
+.solana-panel { color:#656ed0; background:#eef0ff; border-color:#dfe2ff; }
