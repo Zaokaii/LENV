@@ -311,3 +311,9 @@ p { color:var(--muted); font-size:13px; line-height:1.5; }
 .method-panel strong { display:block; color:var(--ink); font-size:11px; }
 .method-panel p { margin-top:3px; font-size:9px; }
 .solana-panel { color:#656ed0; background:#eef0ff; border-color:#dfe2ff; }
+.blockchain-explainer { display:flex; gap:10px; padding:13px; margin:12px 0 14px; color:#3b7770; background:#f0fffa; border:1px solid #cfeee5; border-radius:16px; }
+.explainer-icon { display:grid; place-items:center; flex:0 0 32px; width:32px; height:32px; color:#197f6c; background:var(--lime-2); border-radius:10px; }
+.blockchain-explainer strong,.blockchain-explainer p,.blockchain-explainer small { display:block; }
+.blockchain-explainer strong { color:var(--ink); font-size:11px; }
+.blockchain-explainer p { margin-top:4px; font-size:9px; line-height:1.5; }
+.blockchain-explainer small { margin-top:7px; color:#278f7a; font-size:9px; font-weight:800; }
